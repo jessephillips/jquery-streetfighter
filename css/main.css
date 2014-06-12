@@ -52,12 +52,31 @@ body {
   width: 156px; 
   height: 90px;
   display: none;
+	position: absolute;
+	top: 72px;
+	left: -112px;
+  z-index: 100;
+}
+.instructions {
   float: left;
-	position: relative;
-	top: 172px;
-	left: -212px;
+  width: 25%;
+  position: relative;
+  top: 100px;
+  left: -100px;
 }
 
+.instructions p {
+  text-transform: uppercase;
+  font: normal 24px/40px Arial, sans-serif;
+  display: block;
+  width: 250px;
+  margin-bottom: 40px;
+}
+
+.instructions .right {
+  position: relative;
+  left: 230px;
+}
 
 
 
